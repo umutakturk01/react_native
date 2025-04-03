@@ -9,18 +9,22 @@ const ImageScreen = () => {
             <View style={styles.row}>
                 <ImageDetail 
                     title="Forest" 
+                    score={9}
                     imageSource={require('../../assets/forest.jpg')}/>
                 <ImageDetail 
                     title="Beach" 
+                    score={7}
                     imageSource={require('../../assets/beach.jpg')}/>
             </View>
             
             <View style={styles.row}>
                 <ImageDetail
                     title="Mountain" 
+                    score={8}
                     imageSource={require('../../assets/mountain.jpg')}/>
                 <ImageDetail
                     title="City"
+                    score={6}
                     imageSource={require('../../assets/city.jpg')}/>
             </View>
         </View>
