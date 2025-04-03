@@ -3,13 +3,15 @@ import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./src/screens/HomeScreen";
 import ComponentsScreen from "./src/screens/ComponentsScreens"; // Fixed the import path
 import ListScreen from "./src/screens/ListScreen"; 
+import ImageScreen from "./src/screens/ImageScreen";
 
-// Fixed the import path
+
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Components: ComponentsScreen,
-    List: ListScreen,
+    List: ListScreen, 
+    Image: ImageScreen,
 
   },
 
