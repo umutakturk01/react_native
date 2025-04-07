@@ -29,6 +29,10 @@ const HomeScreen = ({ navigation }) => {
         <Text style={styles.text}>Colors</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity onPress={() => navigation.navigate('Square')} >
+        <Text style={styles.text}>Square</Text>
+      </TouchableOpacity>
+
       </View>
     
   )
